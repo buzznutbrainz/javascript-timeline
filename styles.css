@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(153, 66, 66);
+    color: antiquewhite;
+}
+
+h1{
+    font-weight: 900;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+h2{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+button{
+    background-color: antiquewhite;
+    font-size: 1.5em;
+    margin-top: 5vh;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    color: rgb(61, 17, 17);
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
